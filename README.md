@@ -1,0 +1,1 @@
+Sample .NET Mono solution with logging. Using log4net for logging to syslog.
