@@ -9,8 +9,10 @@ namespace Logging
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("sdf");
             log.Info("Hello World!");
+            log.InfoFormat("Hello {0}", "World!");
+            log.Debug("Hello Debugging World!");
+            log.Error("Hello Error World!");
             Console.ReadLine();
         }
     }
