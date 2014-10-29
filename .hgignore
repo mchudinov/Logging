@@ -2,3 +2,4 @@ syntax: glob
 Logging/bin
 Logging/obj
 packages
+*.userprefs
